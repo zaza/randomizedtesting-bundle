@@ -1,28 +1,29 @@
 Manifest-Version: 1.0
 Archiver-Version: Plexus Archiver
 Created-By: Apache Maven Bundle Plugin
-Built-By: dweiss
-Build-Jdk: 1.6.0_27
+Built-By: bamboo
+Build-Jdk: 1.7.0_04-ea
 Export-Package: com.carrotsearch.randomizedtesting.annotations;uses:="
  org.junit.runner.notification,com.carrotsearch.randomizedtesting";ver
- sion="1.5.0",com.carrotsearch.randomizedtesting.generators;version="1
- .5.0",com.carrotsearch.randomizedtesting;uses:="org.junit.runner,org.
- junit.runner.manipulation,org.junit.internal,org.hamcrest,org.junit,c
- om.carrotsearch.randomizedtesting.annotations,org.junit.runners.model
- ,org.junit.runner.notification,junit.framework,org.junit.rules,com.ca
- rrotsearch.randomizedtesting.generators";version="1.5.0",com.carrotse
- arch.randomizedtesting.validators;uses:="com.carrotsearch.randomizedt
- esting,javax.xml.bind,org.junit";version="1.5.0",com.carrotsearch.ran
- domizedtesting.rules;uses:="org.junit.runner,org.junit.runners.model,
- org.junit.rules";version="1.5.0",com.carrotsearch.randomizedtesting.l
- isteners;uses:="com.carrotsearch.randomizedtesting,org.junit.internal
- ,org.junit.runner,org.junit.runner.notification";version="1.5.0"
+ sion="1.6.0.SNAPSHOT",com.carrotsearch.randomizedtesting.generators;v
+ ersion="1.6.0.SNAPSHOT",com.carrotsearch.randomizedtesting;uses:="org
+ .junit.runner,org.junit.runner.manipulation,org.junit.internal,org.ha
+ mcrest,org.junit,com.carrotsearch.randomizedtesting.annotations,org.j
+ unit.runners.model,org.junit.runner.notification,junit.framework,org.
+ junit.rules,com.carrotsearch.randomizedtesting.generators";version="1
+ .6.0.SNAPSHOT",com.carrotsearch.randomizedtesting.validators;uses:="c
+ om.carrotsearch.randomizedtesting,javax.xml.bind,org.junit";version="
+ 1.6.0.SNAPSHOT",com.carrotsearch.randomizedtesting.rules;uses:="org.j
+ unit.runner,org.junit.runners.model,org.junit.rules";version="1.6.0.S
+ NAPSHOT",com.carrotsearch.randomizedtesting.listeners;uses:="com.carr
+ otsearch.randomizedtesting,org.junit.internal,org.junit.runner,org.ju
+ nit.runner.notification";version="1.6.0.SNAPSHOT"
 Tool: Bnd-1.15.0
 Bundle-Name: RandomizedTesting Randomized Runner
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-Vendor: Carrot Search s.c.
-Bundle-Version: 1.5.0
-Bnd-LastModified: 1336645658717
+Bundle-Version: 1.6.0.SNAPSHOT
+Bnd-LastModified: 1336646248106
 Bundle-ManifestVersion: 2
 Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
 Bundle-Description: Foundation classes and rules for applying the prin
